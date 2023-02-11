@@ -39,7 +39,7 @@ export function getEtherscanLink(
 ): string {
   const prefix =
     networkVersion === ArbitrumNetworkInfo
-      ? 'https://explorer.offchainlabs.com'
+      ? 'https://arbiscan.io'
       : networkVersion === OptimismNetworkInfo
       ? 'https://optimistic.etherscan.io'
       : `https://${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[1]}etherscan.io`
@@ -71,7 +71,7 @@ export function getEtherscanLink(
         return `${prefix}/address/${data}`
       }
       case 'block': {
-        return 'https://explorer.offchainlabs.com'
+        return 'https://arbiscan.io'
       }
       case 'address':
       default: {
