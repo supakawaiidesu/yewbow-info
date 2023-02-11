@@ -49,8 +49,8 @@ export function colors(darkMode: boolean): Colors {
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
 
     // backgrounds / greys
-    bg0: darkMode ? '#191B1F' : 'hsl(5, 23%, 97%)',
-    bg1: darkMode ? '#1F2128' : 'hsl(5, 100%, 100%)',
+    bg0: darkMode ? '#141415' : 'hsl(5, 23%, 97%)',
+    bg1: darkMode ? '#171718' : 'hsl(5, 100%, 100%)',
     bg2: darkMode ? '#2C2F36' : 'hsl(5, 23%, 97%)',
     bg3: darkMode ? '#40444F' : 'hsl(5, 16%, 94%)',
     bg4: darkMode ? '#565A69' : 'hsl(5, 13%, 83%)',
