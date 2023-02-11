@@ -22,9 +22,9 @@ export default function DarkModeQueryParamReader({ location: { search } }: Route
     if (typeof theme !== 'string') return
 
     if (theme.toLowerCase() === 'light') {
-      dispatch(updateUserDarkMode({ userDarkMode: false }))
-    } else if (theme.toLowerCase() === 'dark') {
       dispatch(updateUserDarkMode({ userDarkMode: true }))
+    } else if (theme.toLowerCase() === 'dark') {
+      dispatch(updateUserDarkMode({ userDarkMode: false }))
     }
   }, [dispatch, search])
 
