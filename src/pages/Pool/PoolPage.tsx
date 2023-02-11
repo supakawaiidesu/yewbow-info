@@ -297,7 +297,7 @@ export default function PoolPage({
             {activeNetwork !== EthereumNetworkInfo ? null : (
               <RowFixed>
                 <StyledExternalLink
-                  href={`https://app.yewbow.org/#/add/${poolData.token0.address}/${poolData.token1.address}/${poolData.feeTier}`}
+                  href={`https://yewbow-unidex.vercel.app/#/add/${poolData.token0.address}/${poolData.token1.address}/${poolData.feeTier}`}
                 >
                   <ButtonGray width="170px" mr="12px" style={{ height: '44px' }}>
                     <RowBetween>
