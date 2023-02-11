@@ -181,7 +181,7 @@ export default function Header() {
           <StyledNavLink id={`stake-nav-link`} to={networkPrefix(activeNewtork) + 'tokens'}>
             Tokens
           </StyledNavLink>
-          <StyledExternalLink href={'https://app.yewbow.org'}>
+          <StyledExternalLink href={'https://yewbow-unidex.vercel.app'}>
             <ButtonGray width="200px" style={{ height: '44px' }}>
               Manage Positions
             </ButtonGray>
